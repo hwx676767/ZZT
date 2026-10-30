@@ -1,0 +1,256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8971022631201054858
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 12
+  hdPluginSubTargetMaterialVersions:
+    m_Keys: []
+    m_Values: 
+--- !u!114 &-1497672391192737225
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_UnderpassLights_On
+  m_Shader: {fileID: -6465566751694194690, guid: 43c76a0844e2a494999c9020bb7a6cc2,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _DISABLE_SSR_TRANSPARENT
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2225
+  stringTagMap:
+    MotionVector: User
+    RenderType: Opaque
+  disabledShaderPasses:
+  - TransparentDepthPrepass
+  - TransparentDepthPostpass
+  - TransparentBackface
+  - RayTracingPrepass
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AO:
+        m_Texture: {fileID: 2800000, guid: 9b2d4f9d084716348bd07a74c3893b51, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseORM:
+        m_Texture: {fileID: 2800000, guid: 9a8fbf9a285d8b6419918fc5ea939398, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Base_Color:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Base_Normal_Map:
+        m_Texture: {fileID: 2800000, guid: fa9304d9d2785ca419469d6cccbf5091, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BasecColor:
+        m_Texture: {fileID: 2800000, guid: c42dba13ef1eca248afc2762e17899a7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Color_Mask01:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: 7123ced91d271f641a8cd2a79d0e1c1e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emission_Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal_Map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ORM:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Opacity_Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_c22947dcc10745a9a38007ae71c0b418_Texture_1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Second_Normal_Map:
+        m_Texture: {fileID: 2800000, guid: 544feea0b599e8e4fa4b22bfb4eb96e0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Shader_Mask:
+        m_Texture: {fileID: 2800000, guid: ca463c5eef9ebdb43b3343ac9289ddec, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SubGWorldAlignedTexture_0326fd4703fa41498e22792b9e093f83_Texture2D74783799d0be4fe68f261378c4b8ad79_1068583441:
+        m_Texture: {fileID: 2800000, guid: 27622de6d949d7842ba52b18f75c99fe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SubGWorldAlignedTexture_6abcf54881f6494cb3f168e9ac046844_Texture2D74783799d0be4fe68f261378c4b8ad79_1068583441:
+        m_Texture: {fileID: 2800000, guid: 27622de6d949d7842ba52b18f75c99fe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SubGWorldAlignedTexture_ed425d08d0a5407aa0d79b5dc604b42a_Texture2D74783799d0be4fe68f261378c4b8ad79_1068583441:
+        m_Texture: {fileID: 2800000, guid: 058f4462792f2ec43b32b1debba2fad9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AddPrecomputedVelocity: 0
+    - _AlphaClip: 0
+    - _AlphaCutoffEnable: 0
+    - _AlphaDstBlend: 0
+    - _AlphaSrcBlend: 1
+    - _AlphaToMask: 0
+    - _AlphaToMaskInspectorValue: 0
+    - _Blend: 0
+    - _BlendMode: 0
+    - _BlendModePreserveSpecular: 0
+    - _CastShadows: 1
+    - _ConservativeDepthOffsetEnable: 0
+    - _Cull: 2
+    - _CullMode: 2
+    - _CullModeForward: 2
+    - _DepthOffsetEnable: 0
+    - _DoubleSidedEnable: 0
+    - _DoubleSidedGIMode: 0
+    - _DoubleSidedNormalMode: 2
+    - _DstBlend: 0
+    - _Emission: 0
+    - _Emission_Intensity: 0
+    - _Emission_Strength: 0.67
+    - _EnableBlendModePreserveSpecularLighting: 1
+    - _EnableFogOnTransparent: 1
+    - _Enable_Color_Tint: 0
+    - _Enable_Grunge: 1
+    - _Enable_Opacity_Mask: 0
+    - _Grunge_Mask_Invert: 0
+    - _Grunge_Mask_Size: 512
+    - _Grunge_Size: 512
+    - _Normal_Map_Strength: 1
+    - _Normal_Strength: 1
+    - _OpaqueCullMode: 2
+    - _QueueControl: 1
+    - _QueueOffset: 0
+    - _RayTracing: 0
+    - _ReceiveShadows: 1
+    - _ReceivesSSR: 1
+    - _ReceivesSSRTransparent: 0
+    - _RefractionModel: 0
+    - _RenderQueueType: 1
+    - _RequireSplitLighting: 0
+    - _Second_Normal_Map_Dirt_Balance: 1
+    - _Second_Normal_Map_Dirt_Strength: 1
+    - _Second_Normal_Map_UV_Scale: 1
+    - _SrcBlend: 1
+    - _StencilRef: 0
+    - _StencilRefDepth: 8
+    - _StencilRefDistortionVec: 4
+    - _StencilRefGBuffer: 10
+    - _StencilRefMV: 40
+    - _StencilWriteMask: 6
+    - _StencilWriteMaskDepth: 8
+    - _StencilWriteMaskDistortionVec: 4
+    - _StencilWriteMaskGBuffer: 14
+    - _StencilWriteMaskMV: 40
+    - _SupportDecals: 1
+    - _Surface: 0
+    - _SurfaceType: 0
+    - _TransparentBackfaceEnable: 0
+    - _TransparentCullMode: 2
+    - _TransparentDepthPostpassEnable: 0
+    - _TransparentDepthPrepassEnable: 0
+    - _TransparentSortPriority: 0
+    - _TransparentWritingMotionVec: 0
+    - _TransparentZWrite: 0
+    - _UV_Offset_U: 0
+    - _UV_Offset_V: 0
+    - _UV_Scale: 1
+    - _UV_U_Offset: 0
+    - _UV_V_Offset: 0
+    - _UseShadowThreshold: 0
+    - _Use_3_Color_Tint: 0
+    - _Use_AO_Dirt: 1
+    - _Use_CubeMap: 0
+    - _Use_Dirt: 1
+    - _Use_Opacity: 0
+    - _Use_Second_Normal_Map: 0
+    - _Use_Texture_Input: 0
+    - _Use_Texture_Input_1: 0
+    - _Use_Texture_Input_2: 0
+    - _WorkflowMode: 1
+    - _ZTest: 4
+    - _ZTestDepthEqualForOpaque: 3
+    - _ZTestGBuffer: 4
+    - _ZTestTransparent: 4
+    - _ZWrite: 1
+    - _ZWriteControl: 0
+    m_Colors:
+    - _AO_Dirt_Color: {r: 0.34117648, g: 0.30196077, b: 0.27058816, a: 1}
+    - _AO_Dirt_Ctrls: {r: 0.5, g: 1, b: 1, a: 1}
+    - _Base_Color_Tint01: {r: 1, g: 1, b: 1, a: 0}
+    - _Base_Color_Tint02: {r: 1, g: 1, b: 1, a: 1}
+    - _Base_Color_Tint03: {r: 1, g: 1, b: 1, a: 0}
+    - _Blender_Dirt_ORM: {r: 1, g: 0.8, b: 0, a: 0}
+    - _Dirt_Color: {r: 0.30588236, g: 0.27058816, b: 0.21960783, a: 1}
+    - _Dirt_Ctrls: {r: 0.5019608, g: 1, b: 1, a: 0}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Emission_Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Emission_Tint: {r: 1, g: 1, b: 1, a: 1}
+    - _Grunge_01_Size: {r: 800, g: 800, b: 800, a: 0}
+    - _Grunge_02_Size: {r: 256, g: 256, b: 256, a: 0}
+    - _Grunge_Ctrls: {r: 1, g: 1, b: 1, a: 0}
+    - _Grunge_Mask_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Grunge_Texture_HSV: {r: 0, g: 1, b: 1, a: 0}
+    - _Grunge_Texture_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _ORM: {r: 1, g: 0.29999998, b: 0, a: 1}
+    - _Vector4: {r: 1, g: 1, b: 0, a: 1}
+  m_BuildTextureStacks: []
